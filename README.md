@@ -10,15 +10,15 @@ Credit to Steven Carter.
 git clone ...
 ```
 
-## Step 2 - Build Container
+## Step 2 - Modify Dockerfile
+Replace chocker in lines 11,13,14, and 15 for your OSX username.
+
+## Step 3 - Build Container
 Replace chocker for your OSX username.
 
 ```
 docker build -t 'chocker/netprog:latest' .
 ```
-
-## Step 3 - Modify Dockerfile
-Replace chocker in lines 11,13,14, and 15 for your OSX username.
 
 ## Step 4 - Update Bash Profile
 
